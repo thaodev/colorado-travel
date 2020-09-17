@@ -125,3 +125,17 @@ hr.solid {
 
     border-top: 1px solid #bbb;
     }
+
+/*CSS for Winter-activities*/
+.content{
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+.content1 img {
+    float: left;
+}
+
+.content2 img {
+    float: right;
+}
