@@ -3,7 +3,7 @@
 .colorado {
     text-align: center;
     color: red;
-    font-size: 100px;
+    font-size: 3em;
     letter-spacing: 8px;
     position: relative;
     animation-name: text-change;
