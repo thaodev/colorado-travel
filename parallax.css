@@ -14,3 +14,30 @@
     
     /* Remove Bottom Margin from Jumbotron */
     .jumbotron{margin-bottom: 0;}
+
+    /*Colorado in the footer area*/
+.colorado {
+    text-align: center;
+    color: red;
+    font-size: 100px;
+    letter-spacing: 8px;
+    position: relative;
+    animation-name: text-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes text-change {
+    0% {
+        color: black;
+        margin-bottom: 20px;}
+    50% {
+        letter-spacing: 25px;
+        color: orange;
+        margin-bottom: 20px; }
+    100% {
+        color: red;
+        margin-bottom: 20px;
+    }
+}
