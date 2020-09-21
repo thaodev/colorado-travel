@@ -37,133 +37,150 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Colorado</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Trang chủ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="places.html">Danh lam thắng cảnh</a>
-                </li>
-                <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Hoạt động vui chơi<span class="sr-only">(current)</span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="winter-activities.html">Mùa đông</a>
-                        <a class="dropdown-item" href="summer-activities.html">Mùa hè</a>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Colorado</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="places.html">Danh lam thắng cảnh</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Hoạt động vui chơi<span class="sr-only">(current)</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="winter-activities.html">Mùa đông</a>
+                            <a class="dropdown-item" href="summer-activities.html">Mùa hè</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="author.html">Tác giả</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide my-3" data-ride="carousel"
+            style="width: 50%; margin: auto">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/aspen3.jpg" style="width:900px; height:600px;"
+                        alt="Leo núi ở Aspen">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Leo núi ở Aspen.</h5>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="author.html">Tác giả</a>
-                </li>
-            </ul>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/hiking2.jpeg" style="width:900px; height:600px;" alt="Hiking">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Hiking ở Yellow Stone.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/paddling.jpg" style="width:900px; height:600px;"
+                        alt="Chèo thuyền">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Chèo thuyền ở hồ Dillon.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/fishing.jpg" style="width:900px; height:600px;" alt="Câu cá">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Câu cá ở công viên quốc gia.</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-    </nav>
-    <div id="carouselExampleIndicators" class="carousel slide my-3" data-ride="carousel"
-        style="width: 50%; margin: auto">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/aspen3.jpg" style="width:900px; height:600px;"
-                    alt="Leo núi ở Aspen">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Leo núi ở Aspen.</h5>
+        <div class="container-fluid bg-warning">
+            <div class="text-center">
+                <h1><u>Các hoạt động vào mùa hè:</u></h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 pl-5">
+                    <div class="row">
+                        <img src="img/Boating2.jpg" style="height:300px;width:300px; margin:50px 25px 25px">
+                        <img src="img/hiking.jpg" style="height:300px;width:300px; margin:50px 25px  25px">
+                    </div>
+                    <div class="row">
+                        <img src="img/hotair-baloon2.jpg" style="height:300px;width:300px; margin: 25px 25px 50px">
+                        <img src="img/camping2.jpg" style="height:300px;width:300px; margin:25px 25px 50px">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 py-5 pr-5">
+                    <div class="mr-5">
+                        <p><b>Đi du thuyền:</b> Colorado với địa hình núi và có rất nhiều hồ lớn cũng là nơi dự trữ nước
+                            cho
+                            bang. Bên cạnh đó, hồ còn được người dân sử dụng cho một hình thức giải trí khác đó là đi
+                            các
+                            loại du thuyền. Nếu bạn sở hữu một chiếc thuyền thì bạn cần đăng ký với bang còn nếu bạn là
+                            du
+                            lịch ghé qua thì ở mỗi chỗ đều có thuyền để thuê cho khác du lịch. Một số địa điểm nổi
+                            tiếng:
+                            công viên của bang Navajo, Ridgway, Pearl Lake, Loveland.</p>
+                        <p><b>Cắm trại:</b> Đây là một trong những hoạt động yêu thích của dân địa phương bởi vì đây là
+                            một
+                            trong những cách để con người có thể hòa nhập cùng thiên nhiên. Colorado có khoảng 13000 địa
+                            điểm để camp. Điều đặc biệt ở đây là rất nhiều địa điểm có nhà vệ sinh, khu chứa rác, chỗ
+                            xạc
+                            các thiết bị điện tử. Một vài nơi còn có wifi.</p>
+                        <p><b>Lễ hội khinh khí cầu: </b>Với địa đồi núi nhiều thảo nguyên, hàng năm Colorado là địa điểm
+                            lý
+                            tưởng cho những festival khinh khí cầu thường được diễn ra tại thành phố Colorado Springs.
+                            Đứng
+                            lên chiếc khinh khí cầu bạn sẽ được ngắm một vùng rộng lớn Rocky Mountain, với một thảm cỏ
+                            xanh
+                            mướt ở phía dưới cùng với đồi núi chập chùng và các biệt thự với những kiến trúc độc đáo
+                            giữa
+                            lưng chừng núi. Tôi đảm bảo rằng bạn sẽ phải ngừng thở trong chốc lát trước vẻ đẹp khó quên
+                            giữa
+                            sự kết hợp của tự nhiên và công trình sáng tạo con người.</p>
+                        <p><b>Hiking: </b>Hiking có lẽ là một trong những hoạt động thể thao phổ biến của người dân địa
+                            phương. Có thể nhiều người nghĩ hiking rất buồn chán nhưng thực tế ngược lại. Với địa hình
+                            đồi
+                            núi chập chừng, đường đi sẽ có nhiều khúc đoạn chập chùng uốn lượn, nhiều chỗ còn dốc, nhấp
+                            nhô.
+                            Hơn nữa càng lên cao thì không khí càng loãng, do đó nhiều người phải chuẩn bị cho mình một
+                            sức
+                            khỏe thật tốt nếu muốn tham gia nhóm đi ngày dài.</p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/hiking2.jpeg" style="width:900px; height:600px;" alt="Hiking">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Hiking ở Yellow Stone.</h5>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/paddling.jpg" style="width:900px; height:600px;" alt="Chèo thuyền">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Chèo thuyền ở hồ Dillon.</h5>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/fishing.jpg" style="width:900px; height:600px;" alt="Câu cá">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Câu cá ở công viên quốc gia.</h5>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <div class="container-fluid bg-warning">
-        <div class="text-center">
-            <h1><u>Các hoạt động vào mùa hè:</u></h1>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-6 pl-5">
-                <div class="row">
-                    <img src="img/Boating2.jpg" style="height:300px;width:300px; margin:50px 25px 25px">
-                    <img src="img/hiking.jpg" style="height:300px;width:300px; margin:50px 25px  25px">
-                </div>
-                <div class="row">
-                    <img src="img/hotair-baloon2.jpg" style="height:300px;width:300px; margin: 25px 25px 50px">
-                    <img src="img/camping2.jpg" style="height:300px;width:300px; margin:25px 25px 50px">
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6 py-5 pr-5">
-                <div class="mr-5">
-                    <p><b>Đi du thuyền:</b> Colorado với địa hình núi và có rất nhiều hồ lớn cũng là nơi dự trữ nước cho
-                        bang. Bên cạnh đó, hồ còn được người dân sử dụng cho một hình thức giải trí khác đó là đi các
-                        loại du thuyền. Nếu bạn sở hữu một chiếc thuyền thì bạn cần đăng ký với bang còn nếu bạn là du
-                        lịch ghé qua thì ở mỗi chỗ đều có thuyền để thuê cho khác du lịch. Một số địa điểm nổi tiếng:
-                        công viên của bang Navajo, Ridgway, Pearl Lake, Loveland.</p>
-                    <p><b>Cắm trại:</b> Đây là một trong những hoạt động yêu thích của dân địa phương bởi vì đây là một
-                        trong những cách để con người có thể hòa nhập cùng thiên nhiên. Colorado có khoảng 13000 địa
-                        điểm để camp. Điều đặc biệt ở đây là rất nhiều địa điểm có nhà vệ sinh, khu chứa rác, chỗ xạc
-                        các thiết bị điện tử. Một vài nơi còn có wifi.</p>
-                    <p><b>Lễ hội khinh khí cầu: </b>Với địa đồi núi nhiều thảo nguyên, hàng năm Colorado là địa điểm lý
-                        tưởng cho những festival khinh khí cầu thường được diễn ra tại thành phố Colorado Springs. Đứng
-                        lên chiếc khinh khí cầu bạn sẽ được ngắm một vùng rộng lớn Rocky Mountain, với một thảm cỏ xanh
-                        mướt ở phía dưới cùng với đồi núi chập chùng và các biệt thự với những kiến trúc độc đáo giữa
-                        lưng chừng núi. Tôi đảm bảo rằng bạn sẽ phải ngừng thở trong chốc lát trước vẻ đẹp khó quên giữa
-                        sự kết hợp của tự nhiên và công trình sáng tạo con người.</p>
-                    <p><b>Hiking: </b>Hiking có lẽ là một trong những hoạt động thể thao phổ biến của người dân địa
-                        phương. Có thể nhiều người nghĩ hiking rất buồn chán nhưng thực tế ngược lại. Với địa hình đồi
-                        núi chập chừng, đường đi sẽ có nhiều khúc đoạn chập chùng uốn lượn, nhiều chỗ còn dốc, nhấp nhô.
-                        Hơn nữa càng lên cao thì không khí càng loãng, do đó nhiều người phải chuẩn bị cho mình một sức
-                        khỏe thật tốt nếu muốn tham gia nhóm đi ngày dài.</p>
-                </div>
-            </div>
-        </div>
 
-    </div>
-    <footer class=" bg-dark">
-        <div class="colorado">
-            <p>COLORADO</p>
         </div>
-        <div class="col-md-12 text-white text-right">
-            <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
-            <a href="#"><i class="fab fa-linkedin text-white"></i></a>
-            <p>Tác giả: Nguyễn Thị Thảo</p>
-        </div>
+        <footer class=" bg-dark">
+            <div class="colorado">
+                <p>COLORADO</p>
+            </div>
+            <div class="col-md-12 text-white text-right">
+                <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                <a href="#"><i class="fab fa-linkedin text-white"></i></a>
+                <p>Tác giả: Nguyễn Thị Thảo</p>
+            </div>
 
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>
