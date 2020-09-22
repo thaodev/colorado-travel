@@ -3,13 +3,13 @@
 .colorado {
     text-align: center;
     color: red;
-    font-size: 3em;
     letter-spacing: 8px;
     position: relative;
     animation-name: text-change;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 @keyframes text-change {
@@ -129,5 +129,24 @@ hr.solid {
     border-top: 1px solid #bbb;
     }
 
+/*Small devices (landscape phones, 544px and up)*/
+@media (min-width: 544px) {
+    li, p {font-size: 1.5rem;}
+    h2 {font-size: 3rem;}
+    .colorado {font-size: 5rem;}
 
+}
 
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    li,p {font-size: 1.25rem;}
+    h2 {font-size: 2.5rem;}
+    .colorado {font-size: 4rem;}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) {
+    li, p {font-size: 1rem;}
+    h2 {font-size: 2rem;}
+    .colorado {font-size: 3rem;}
+}
