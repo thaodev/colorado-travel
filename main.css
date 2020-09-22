@@ -131,9 +131,10 @@ hr.solid {
 
 /*Small devices (landscape phones, 544px and up)*/
 @media (min-width: 544px) {
-    li, p {font-size: 1.5rem;}
-    h2 {font-size: 3rem;}
-    .colorado {font-size: 5rem;}
+    li {font-size: 3rem;}
+    p {font-size: 3rem;}
+    h2 {font-size: 4rem;}
+    .colorado {font-size: 6rem;}
 
 }
 
