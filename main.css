@@ -130,7 +130,7 @@ hr.solid {
     }
 
 /*Small devices (landscape phones, 544px and up)*/
-@media (min-width: 544px) {
+@media (max-width: 544px) {
     li {font-size: 3rem;}
     p {font-size: 3rem;}
     h2 {font-size: 4rem;}
@@ -139,14 +139,14 @@ hr.solid {
 }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     li,p {font-size: 1.25rem;}
     h2 {font-size: 2.5rem;}
     .colorado {font-size: 4rem;}
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     li, p {font-size: 1rem;}
     h2 {font-size: 2rem;}
     .colorado {font-size: 3rem;}

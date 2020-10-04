@@ -44,9 +44,9 @@
 
 /*Small devices (landscape phones, 544px and up)*/
 @media (min-width: 544px) {
-    li, p {font-size: 1.5rem;}
-    h2 {font-size: 3rem;}
-    .colorado {font-size: 5rem;}
+    li, p {font-size: 1.5rem !important;}
+    h2 {font-size: 3rem !important ;}
+    .colorado {font-size: 5rem !important;}
 
 }
 
