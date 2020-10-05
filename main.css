@@ -133,7 +133,7 @@ hr.solid {
 @media (min-width: 544px) {
     /*li {font-size: 4rem;}*/
     /*p {font-size: 4rem;}*/
-	li,p {font-size: 200%;}
+	li,p  {font-size: 200%;}
     h2,h5 {font-size: 200%;}
     .colorado {font-size: 200%;}
     .navbar-brand {font-size: 400%}
