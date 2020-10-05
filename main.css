@@ -134,7 +134,7 @@ hr.solid {
     /*li {font-size: 4rem;}*/
     /*p {font-size: 4rem;}*/
 	li,p {font-size: 200%;}
-    h2 {font-size: 200%;}
+    h2,h5 {font-size: 200%;}
     .colorado {font-size: 200%;}
     .navbar-brand {font-size: 400%}
 
@@ -144,7 +144,7 @@ hr.solid {
 @media (min-width: 768px) {
     /*li,p {font-size: 1.25rem;}*/
 	li,p {font-size: 200%;}
-    h2 {font-size: 200%;}
+    h2,h5 {font-size: 200%;}
     .colorado {font-size: 200%;}
     .navbar-brand {font-size: 400%}
 }
@@ -153,7 +153,7 @@ hr.solid {
 @media (min-width: 1200px) {
     /*li, p {font-size: 1rem;}*/
 	li,p {font-size: 150%;}
-    h2 {font-size: 150%;}
+    h2,h5 {font-size: 150%;}
     .colorado {font-size: 200%;}
     .navbar-brand {font-size: 200%}
 }

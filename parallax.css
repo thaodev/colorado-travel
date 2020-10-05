@@ -44,22 +44,29 @@
 
 /*Small devices (landscape phones, 544px and up)*/
 @media (min-width: 544px) {
-    li, p {font-size: 1.5rem !important;}
-    h2 {font-size: 3rem !important ;}
-    .colorado {font-size: 5rem !important;}
+    /*li {font-size: 4rem;}*/
+    /*p {font-size: 4rem;}*/
+	li,p {font-size: 200%;}
+    h2,h5 {font-size: 200%;}
+    .colorado {font-size: 200%;}
+    .navbar-brand {font-size: 400%}
 
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    li,p {font-size: 1.25rem;}
-    h2 {font-size: 2.5rem;}
-    .colorado {font-size: 4rem;}
+    /*li,p {font-size: 1.25rem;}*/
+	li,p {font-size: 200%;}
+    h2,h5 {font-size: 200%;}
+    .colorado {font-size: 200%;}
+    .navbar-brand {font-size: 400%}
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 1200px) {
-    li, p {font-size: 1rem;}
-    h2 {font-size: 2rem;}
-    .colorado {font-size: 3rem;}
+    /*li, p {font-size: 1rem;}*/
+	li,p {font-size: 150%;}
+    h2,h5 {font-size: 150%;}
+    .colorado {font-size: 200%;}
+    .navbar-brand {font-size: 200%}
 }
