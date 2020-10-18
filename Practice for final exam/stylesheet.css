@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .list {
     list-style-type: none;
 }
@@ -86,4 +89,41 @@
     font-size: 3rem;
     text-transform: capitalize;
     text-decoration: line-through;
+}
+
+.flex-container {
+    display: flex;
+}
+.flex-item-left {
+    background-color: pink;
+    flex: 30%;
+}
+
+.flex-item-right {
+    flex: 70%;
+    background-color: lightgreen;
+}
+
+.img2 {
+    float: right;
+    width: 50%;
+}
+
+.img
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.float-container {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "" ;
+    clear:both;
+    display: table;
 }
