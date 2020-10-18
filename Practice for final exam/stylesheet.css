@@ -5,6 +5,7 @@
 .row {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    position: relative;
 }
 
 .table, th, td {
@@ -22,6 +23,7 @@
     text-align: center;
     text-decoration-color: chocolate;
     text-decoration:line-through ;
+    padding: 50px 0;
 }
 
 .row2 {
@@ -30,6 +32,7 @@
     font-size: 3rem;
     text-transform:uppercase;
     font-style: italic ;
+
 }
 
 .row3 {
@@ -37,4 +40,50 @@
     font-style: bold ;
     text-transform: capitalize;
     text-decoration: underline;
+}
+
+.new-table {
+    margin: 25%;
+    padding: 20px 0;
+}
+
+
+.display-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: line-through;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: pink;
+    border: solid pink;
+}
+
+.display-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.display-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: overline;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: lightgreen
+}
+
+.display-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-decoration: line-through;
 }
