@@ -1,3 +1,40 @@
 .list {
-    text-decoration: none;
+    list-style-type: none;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.table, th, td {
+    border: solid pink;
+}
+
+.th, td {
+    width: 100%
+}
+
+.row1 {
+    background-color: orange;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    text-decoration-color: chocolate;
+    text-decoration:line-through ;
+}
+
+.row2 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 3rem;
+    text-transform:uppercase;
+    font-style: italic ;
+}
+
+.row3 {
+    text-align: right;
+    font-style: bold ;
+    text-transform: capitalize;
+    text-decoration: underline;
 }
