@@ -127,3 +127,56 @@
     clear:both;
     display: table;
 }
+
+.float-container2 {
+    float: left;
+    width: 25%;
+}
+
+.display3 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    position: relative;
+}
+
+.text1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+.text2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-decoration: line-through ;
+}
+.img3 {
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 5%; 
+}
+
+ul::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu-left li {
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.menu-right li {
+    float: right;
+    list-style-type: none;
+    margin: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: purple;
+}
+
